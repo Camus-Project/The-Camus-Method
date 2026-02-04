@@ -18,12 +18,10 @@ It is **language-agnostic** and can be applied on top of existing languages thro
 3. **Separation of intention and implementation**  
    - **Terms** describe *what* a value or object means in the project context.  
    - **Constraints** describe *what* a function requires to operate.  
-   - **Structures / implementations** map terms to concrete data and algorithms.
 
 4. **Semantic constraints on composition**  
    - Only terms can pass between functions.  
    - Primitives can be used internally but cannot leak outside a function.  
-   - Structures implement interfaces corresponding to terms, guaranteeing functional compatibility while preserving meaning.
 
 5. **Gradual coverage & auditability**  
    - Projects can adopt Camus partially.  
